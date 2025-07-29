@@ -6,7 +6,7 @@ sudo snap refresh snap-store --edge
 sudo snap refresh firmware-updater --edge
 
 sudo add-apt-repository ppa:rastersoft-gmail/a11y-packages
-sudo sed -i -e ‘s/noble-backports/noble-backports noble-proposed/g’ /etc/apt/sources.list.d/ubuntu.sources
+sudo sed -i -e 's/noble-backports/noble-backports noble-proposed/g' /etc/apt/sources.list.d/ubuntu.sources
 
 cat << EOF | sudo tee /etc/apt/preferences.d/ppa-pinning
 Package: *
